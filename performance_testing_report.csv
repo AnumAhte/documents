@@ -1,0 +1,11 @@
+Test Case ID,Description,Tool Used,Metric,Expected Result,Actual Result,Status,Remarks
+PT-001,Measure page load time,Lighthouse,First Contentful Paint (FCP),< 2s,2.3s,Fail,Needs optimization
+PT-002,Measure Largest Contentful Paint (LCP),Lighthouse,LCP,< 2.5s,3.1s,Fail,Optimize images and reduce render-blocking resources
+PT-003,Check Total Blocking Time (TBT),Lighthouse,TBT,< 300ms,280ms,Pass,Performance is acceptable
+PT-004,Assess Cumulative Layout Shift (CLS),Lighthouse,CLS,< 0.1,0.08,Pass,Good user experience
+PT-005,Measure Time to Interactive (TTI),Lighthouse,TTI,< 5s,4.8s,Pass,Performance is within range
+PT-006,Check mobile responsiveness,GTmetrix,Fully Loaded Time,< 3s,3.5s,Fail,Optimize mobile rendering
+PT-007,Test server response time,WebPageTest,TTFB,< 200ms,210ms,Fail,Reduce server response time
+PT-008,Evaluate unused CSS/JS,PageSpeed Insights,Reduce Unused CSS,Minimized,Excessive CSS detected,Fail,Remove unused styles
+PT-009,Optimize image sizes,PageSpeed Insights,Image Optimization,Optimized,Large images detected,Fail,Use WebP format
+PT-010,Minify JavaScript and CSS,Lighthouse,Minification,Minified,Some unminified files,Fail,Minify all resources

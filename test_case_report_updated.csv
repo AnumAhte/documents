@@ -1,0 +1,6 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks,Shipment Method
+TC001,User can add a product to the cart,Navigate to product page > Click 'Add to Cart',Product is added to cart,Product successfully added,Pass,Works as expected,Not applicable
+TC002,User can remove a product from the cart,Navigate to cart > Click 'Remove',Product is removed from cart,Product successfully removed,Pass,No issues found,Not applicable
+TC003,User can place an order with shipment method,Fill checkout form > Select shipment method > Click 'Place Order',Order is placed successfully,Order created with shipment details,Pass,Needs shipment tracking,"Standard, Express, or Pickup"
+TC004,Order status updates correctly,Admin updates order status to 'Shipped',Order status updates in database,Status updated successfully,Pass,Verified in dashboard,Depends on user selection
+TC005,Secure checkout process,Enter card details > Click 'Pay',Payment is processed securely,Payment processed without errors,Pass,No security issues found,Based on user choice
